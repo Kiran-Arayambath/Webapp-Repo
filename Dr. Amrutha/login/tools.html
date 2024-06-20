@@ -1,0 +1,196 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Profile</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&amp;display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+      <h1 class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Dr.</h1>
+      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
+      <div class="navbar-nav">
+        <!-- <div class="nav-item text-nowrap">
+          <a class="nav-link px-3" href="#">Sign out</a>
+        </div> -->
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <div class="position-sticky pt-3">
+            <!-- Profile Section -->
+            <div class="profile-section text-center mb-4">
+              <img src="images/dp.jpg" alt="Profile Picture" class="profile-picture">
+              <div class="profile-caption">
+                <span class="profile-name">Dr. Amrutha Kunhikannan</span>
+                <span class="profile-role">Senior Dentist</span>
+              </div>
+              </div>
+              <ul class="nav flex-column">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="dashboard.html">
+                          <span data-feather="home"></span>
+                          Dashboard
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="appointments.html">
+                          <span data-feather="file-text"></span>
+                          Appointments
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="mail.html">
+                          <span data-feather="message-square"></span>
+                          Messages
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <span data-feather="bar-chart-2"></span>
+                          Reports
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <span data-feather="layers"></span>
+                          Integrations
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <span data-feather="download-cloud"></span>
+                          Saved Reports
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="profile.html">
+                          <span data-feather="user"></span>
+                          Profile
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="tools.html">
+                          <span data-feather="tool"></span>
+                          Tools
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <span data-feather="log-out"></span>
+                          Logout
+                      </a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+              <h1 class="h2">Tools</h1>
+              <div class="btn-toolbar mb-2 mb-md-0">
+              </div>
+            </div>
+            <div class="row">
+              <div class="d-flex pt-3 myprofile-header">
+                <img src="images/dp.jpg" alt="Profile Picture" class="myprofile-picture">
+                <div class="myprofile-caption">
+                  <p class="pb-3 mb-0 small lh-sm myprofile-role">
+                    <strong class="d-block text-gray-dark myprofile-name">Dr. Amrutha Kunhikannan</strong>
+                    Senior Dentist
+                  </p>
+                </div>
+              </div>
+              <div class="myprofile-body">
+                <nav>
+                  <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Basic Details</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Accomplishments</button>
+                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact Details</button>
+                  </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="table-responsive">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Display Name</td>
+                            <td>Dr. Amruthakunhikannan</td>
+                          </tr>
+                          <tr>
+                            <td>Role</td>
+                            <td>Senior Dentist</td>
+                          </tr>
+                          <tr>
+                            <td>Username</td>
+                            <td>Amrutha</td>
+                          </tr>
+                          <tr>
+                            <td>Password</td>
+                            <td>********</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <p><strong>This is some placeholder content for the Profile tab's associated content.</strong> Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling. You can use it with tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+                  </div>
+                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="table-responsive">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Phone Number</td>
+                            <td>+91-9567385073</td>
+                          </tr>
+                          <tr>
+                            <td>Email</td>
+                            <td>abcde@abc.com</td>
+                          </tr>
+                          <tr>
+                            <td>Address</td>
+                            <td>Madiyan, Kanhangad<br>Kasargod, Kerala<br>India-670309</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    <footer>
+        <p>Updated yesterday at 11:59 PM</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+    <script src="js/dashboard.js"></script>
+
+
+</body></html>
